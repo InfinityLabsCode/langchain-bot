@@ -1,0 +1,10 @@
+.summary-result-container{
+  height: 800px;
+  padding-top: 20px;
+  .summary-content{
+    overflow-y:auto;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+}

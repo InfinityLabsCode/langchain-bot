@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import url('https://p.typekit.net/p.css?s=1&k=oui3wsp&ht=tk&f=24537.24547.24549&a=83647339&app=typekit&e=css');
+@font-face {
+  font-family: 'sofia-pro';
+  src: url('/assets/fonts/773a22-woff2') format('woff2'),
+    url('/assets/fonts/773a22-woff2') format('woff'),
+    url('/assets/fonts/773a22-woff2') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'sofia-pro';
+  src: url('/assets/fonts/b718ff-woff2') format('woff2'),
+    url('/assets/fonts/b718ff-woff') format('woff'),
+    url('/assets/fonts/b718ff-opentype') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'sofia-pro';
+  src: url('/assets/fonts/262452-woff2') format('woff2'),
+    url('/assets/fonts/262452-woff') format('woff'),
+    url('/assets/fonts/262452-opentype') format('opentype');
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+
+@import './scss/main.scss';
